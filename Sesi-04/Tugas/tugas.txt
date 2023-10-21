@@ -1,0 +1,21 @@
+Tugas sesi 4
+
+1.tulis judul algoritma
+2.tulis input input yang diperlukan untuk menghitung luas dan keliling lingkaran
+3.tulis langkah kalkulasi
+4.tulis instruksi untuk tampilkan hasil kalkulasi
+
+Jawaban
+1.algoritma hitung luas lingkaran dan keliling lingkaran
+
+2.input yang diperlukan menghitung luas lingkaran dan keliling lingkaran
+  - Buat variabel Pi = 3.14
+  - Tentukan Nilai Dari Jari-jari serta pembuatan variabel r
+  - Buat variabel luas
+  - Buat variabel keliling
+
+3.Rumus dari luas lingkaran dan keliling lingkaran
+  - Luas lingkaran = π x r² (luas lingkaran = pi (3,14) x jari-jari lingkaran x jari-jari lingkaran )
+  - Keliling lingkaran = 2 x π x r (Keliling lingkaran = 2 x pi (3,14) x jari-jari lingkaran) 
+
+4. Menampilkan hasil dari perhitungan dengan Rumus luas lingkaran dan keliling lingkaran
