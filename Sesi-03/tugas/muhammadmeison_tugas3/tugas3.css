@@ -1,0 +1,117 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
+
+.flex-container {
+  display: flex;
+  background: white;
+}
+
+img {
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: orange;
+  margin: 15px;
+}
+
+.profile-text {
+  padding: 10px;
+  margin: 10px;
+}
+
+p{
+  font-size: 14px;
+}
+
+/* css tombol kontak */
+.btn_kontak {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn_kontak:hover {
+  opacity: 0.7;
+}
+
+/* css tombol resume */
+.btn_resume {
+  color: green;
+  padding: 10px;
+  border-width: 1px;
+  border-color: green;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn_resume:hover {
+  opacity: 0.7;
+}
+
+#detail {
+  padding: 15px;
+}
+
+#detail table tr td {
+  padding: 15px;
+}
+
+#detail table tr th{
+  text-align: left;
+}
