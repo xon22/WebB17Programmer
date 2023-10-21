@@ -19,3 +19,4 @@ Jawaban
   - Keliling lingkaran = 2 x π x r (Keliling lingkaran = 2 x pi (3,14) x jari-jari lingkaran) 
 
 4. Menampilkan hasil dari perhitungan dengan Rumus luas lingkaran dan keliling lingkaran
+  - menampilkan hasil mengunakan console dimana dapat dilihat dari inspect pada browser google chrome
