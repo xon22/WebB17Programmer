@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Kalkulator</title>
+</head>
+<body>
+    <h1>Belajar Kalkulator</h1>
+<div id="hasil"></div>
+<script>
+  var nilai1 = 10;
+  var nilai2 = 20;
+
+  // statis
+  var hasilTambah = nilai1 + nilai2;
+  var hasilKurang = nilai1 - nilai2;
+  var hasilKali = nilai1 * nilai2;
+  var hasilBagi = nilai1 / nilai2;
+
+  var output = document.getElementById("hasil");
+  output.innerHTML = hitung(nilai1, nilai2, "tambah");
+  //   output.innerHTML = hasilTambah;
+
+  function hitung(nilai1, nilai2, status) {
+    // loigc > + - * /
+    var hasil = 0;
+    if (status == "tambah") {
+      hasil = nilai1 + nilai2;
+    } else if (status == "kurang") {
+      hasil = nilai1 - nilai2;
+    } else if (status == "kali") {
+      hasil = nilai1 * nilai2;
+    } else if (status == "bagi") {
+      hasil = nilai1 / nilai2;
+    } else {
+      hasil = "Status tidak dikenali";
+    }
+    var outputFunc = `${nilai1} ${status} ${nilai2} <br> hasil : ${hasil}`;
+    // output.innerHTML = outputFunc;
+    return outputFunc;
+  }
+</script>
+</body>
+</html>
